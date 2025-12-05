@@ -1,0 +1,33 @@
+:root {
+    --bg-color: linear-gradient(90deg, #e2e2e2, #c9d6ff);
+    --color-2: #fff;
+    --color-3: #eee;
+    --color-4: #888;
+    --color-5: #7494ec;
+    --color-6: #ccc;
+    --test: #ff0000ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    min-height: 100vh;
+    align-items: center;
+    background: var(--bg-color);
+}
+
+main {
+    overflow: hidden;
+    margin: 20px;
+    width: 850px;
+    height: 550px;
+    background-color: white;
+    border-radius: 30px;
+}
